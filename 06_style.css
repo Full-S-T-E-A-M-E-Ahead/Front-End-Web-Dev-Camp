@@ -1,0 +1,10 @@
+/* This changes the paragraphs under the external css header */
+#external-0 {
+  color: green;
+}
+#external-1 {
+  font-weight: bold;
+}
+#external-2 {
+  text-decoration: underline;
+}

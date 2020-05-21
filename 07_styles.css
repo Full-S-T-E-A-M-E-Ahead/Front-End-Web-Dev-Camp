@@ -1,0 +1,25 @@
+/* Element selector */
+h2 {
+  color: red;
+}
+/* . is for classes */
+.background {
+  background-color: lightblue;
+}
+/* # is for ids */
+#first-paragraph {
+  text-decoration: underline;
+}
+
+/* Multiple selectors */
+#first-section,
+#second-section {
+  border: 2px solid orange;
+  margin: 3px;
+}
+
+/* Nested Selectors */
+#first-section h4 {
+  background-color: purple;
+  color: white;
+}
