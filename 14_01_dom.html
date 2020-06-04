@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+  </head>
+  <body>
+    <title>DOM Manipulation</title>
+    <p></p>
+    <button id="b1">My Button 1</button>
+    <button id="b2">My Button 2</button>
+    <script>
+      function buttonClick() {
+        alert("Clicked Button 2");
+      }
+      document.querySelector("p").textContent = "Hello from JavaScript";
+      document
+        .querySelector("#b1")
+        .addEventListener("click", () => alert("Clicked Button 1"));
+      document.querySelector("#b2").addEventListener("click", buttonClick);
+    </script>
+  </body>
+</html>
