@@ -20,7 +20,7 @@ class Dog {
     console.log(this.age);
   };
   printName = () => {
-    console.log(name);
+    console.log(this.name);
   };
   setName = (name) => {
     this.name = name;
